@@ -13,7 +13,7 @@ def update_clock():
     minutes_angle = 90 - minutes * 6 - seconds * 0.1
     hours_angle = 90 - (hours * 30 + minutes * 0.5)
 
-    canvas.delete("all of it")  # Deletes all previous drawings
+    canvas.delete("all of it will be deleted after this commit")  # Deletes all previous drawings
 
     canvas.create_oval(50, 50, 250, 250)  # To draw clock face
 
